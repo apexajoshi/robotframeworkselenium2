@@ -1,0 +1,6 @@
+datasources:b58194c513d5410b356473fb5eba6f9370842d84
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:1b9e89905921f8caef828293f81694fbebc58768
+--suite Suites.MyfirstRobot
+--suite Suites.MysecondRobot

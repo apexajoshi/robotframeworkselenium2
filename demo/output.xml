@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.7 on win32)" generated="20220928 17:38:45.243" rpa="false" schemaversion="3">
+<suite id="s1" name="Tab" source="D:\pycharmprojects\robotframeworkselenium\demo\tab.robot">
+<test id="s1-t1" name="winndowclose" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://robotframework.org/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220928 17:38:45.599" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org/'.</msg>
+<status status="PASS" starttime="20220928 17:38:45.599" endtime="20220928 17:38:54.301"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220928 17:38:54.301" endtime="20220928 17:38:54.311"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220928 17:38:59.324" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220928 17:38:54.311" endtime="20220928 17:38:59.324"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[normalize-space() = 'AppiumLibrary']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20220928 17:38:59.325" level="INFO">Clicking link '//a[normalize-space() = 'AppiumLibrary']'.</msg>
+<status status="PASS" starttime="20220928 17:38:59.325" endtime="20220928 17:39:00.216"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220928 17:39:05.226" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220928 17:39:00.216" endtime="20220928 17:39:05.226"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>Robot Framework</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<msg timestamp="20220928 17:39:05.349" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220928 17:39:05.350" level="FAIL">No window matching handle, name, title or URL 'Robot Framework' found.</msg>
+<status status="FAIL" starttime="20220928 17:39:05.227" endtime="20220928 17:39:05.351"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="NOT RUN" starttime="20220928 17:39:05.352" endtime="20220928 17:39:05.352"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220928 17:39:05.353" endtime="20220928 17:39:05.353"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220928 17:39:05.353" endtime="20220928 17:39:05.353"/>
+</kw>
+<status status="FAIL" starttime="20220928 17:38:45.597" endtime="20220928 17:39:05.355">No window matching handle, name, title or URL 'Robot Framework' found.</status>
+</test>
+<status status="FAIL" starttime="20220928 17:38:45.245" endtime="20220928 17:39:05.357"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tab">Tab</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
